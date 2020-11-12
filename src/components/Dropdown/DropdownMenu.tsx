@@ -56,7 +56,7 @@ function DropdownMenu({
     className
   );
   return (
-    <Popper placement={position} eventsEnabled={true} positionFixed={false}>
+    <Popper placement={position} strategy="absolute">
       {({ ref, style, placement }: PopperChildrenProps) => {
         return (
           _isOpen && (

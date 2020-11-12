@@ -74,11 +74,7 @@ const Tooltip = function({
         }}
       </Reference>
       {isShown && (
-        <Popper
-          placement={placement}
-          eventsEnabled={true}
-          positionFixed={false}
-        >
+        <Popper placement={placement} strategy="absolute">
           {({
             ref,
             style: { opacity, ...style },

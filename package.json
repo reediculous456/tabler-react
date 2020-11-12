@@ -90,6 +90,7 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "gh-pages": "^2.0.0",
     "husky": "^4.3.0",
+    "jest": "24.7.1",
     "lint-staged": "^8.0.0",
     "node-sass": "^4.14.1",
     "prettier": "1.17.1",
@@ -119,7 +120,8 @@
     "tslint": "^5.17.0",
     "tslint-react": "^4.0.0",
     "typescript": "^3.5.1",
-    "webpack": "4.29.6"
+    "webpack": "4.29.6",
+    "webpack-dev-server": "3.2.1"
   },
   "husky": {
     "hooks": {

@@ -7,7 +7,7 @@ import C3Chart from "../C3Chart";
 import SiteWrapper from "../SiteWrapper";
 import { ChartConfiguration } from "c3";
 
-type cardsConfig = ChartConfiguration & { title?: string };
+type cardsConfig = Omit<ChartConfiguration, "title"> & { title?: string };
 
 function ChartsPage() {
   const cards: cardsConfig[] = [
